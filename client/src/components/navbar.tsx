@@ -1,13 +1,26 @@
+import Button from "./button"
+
 function Navbar() {
   return (
-    <nav className="flex justify-between items-center px-8 py-5">
-      <h1 className="text-2xl font-bold">
+    <nav className="
+            ffixed
+            top-0
+            left-0
+            w-full
+            z-50
+            flex
+            justify-between
+            items-center
+            px-14
+            py-8
+            ">
+      <h1 className="text-4xl font-bold text-white" style={{ fontFamily: "Archetype Bayer"}}>
         ApplyMate
       </h1>
 
-      <button className="bg-blue-600 text-white px-5 py-2 rounded-lg">
+    <Button>
         Login
-      </button>
+    </Button>
     </nav>
   )
 }
